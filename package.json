@@ -1,0 +1,23 @@
+{
+    "name": "KurfurstDP3",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "Domagoj",
+    "contributors": [],
+    "dependencies": {
+        "express": "4.17.3",
+        "companydata": "file:companydata",
+        "nodemon": "*"
+    },
+    "scripts" : {   
+        "start-node":"node app.js",
+        "start-nodemon": "nodemon app.js",
+        "start-nodemon-inspect": "nodemon inspect app.js"
+    }
+}
